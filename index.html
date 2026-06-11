@@ -220,16 +220,3 @@
             <p class="sign-off">Looking forward to the conversation ahead.</p>
         </section>
     </main>
-
-    <script>
-        document.getElementById('signup-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const email = document.getElementById('email').value;
-            // Wire to ConvertKit before launch
-            console.log('Signup: ' + email);
-            alert('Thanks for signing up. We\'ll be in touch.');
-            document.getElementById('email').value = '';
-        });
-    </script>
-</body>
-</html>
